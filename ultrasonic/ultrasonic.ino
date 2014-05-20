@@ -1,3 +1,8 @@
+/*
+converts the DYP-ME007 sonar device to an equivalent of MB1240 XL-MaxSonar-EZ4
+by Evan Allen
+probably around September 2013
+*/
 // setup pins and variables for DYP-ME007 sonar device
 int echoPin = 2; // DYP-ME007 echo pin (digital 2)
 int initPin = 3; // DYP-ME007 trigger pin (digital 3)
